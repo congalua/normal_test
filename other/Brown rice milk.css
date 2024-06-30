@@ -1,0 +1,281 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Albert Sans", sans-serif;
+}
+/* header yea yea */
+.search_tool{
+    display: flex;
+    justify-content: start;
+    margin: 20px 0px 20px 0px;
+}
+.search_tool img{
+    margin-left: 35px;
+}
+.search_tool .search_input{
+    width: 40%;
+    height: 36px;
+    padding: 0 15px;
+    margin-left: 20%;
+    border-radius: 15px;
+}
+.header_navigation{
+    padding: 0px 50px;
+}
+.header{
+    width: 100%;
+    height: 78px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000; 
+}
+.header_navigation .navigation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 24px;
+}
+.header_navigation .navigation .button{
+    padding: 16px 32px;
+}
+.header_navigation .navigation li{
+    list-style: none;
+    padding: 0 24px;
+    transition: all 0.5s linear;
+}
+.header_navigation .navigation li :hover{
+    margin-bottom: 5px;
+    text-decoration: underline;
+    transition: all 0.5s linear;
+}
+.header_navigation .navigation li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;    
+    line-height: 78px;
+} 
+.header_navigation .navigation .icon{
+    display: flex;
+    justify-content:end;
+    padding: 0 24px;    
+}
+.header_navigation .navigation .icon .icon_login a{
+    text-decoration: none;
+    color: #000;
+}
+.header_navigation .navigation .icon .icon_login{
+    margin-right: 10px;
+    transition: all 0.5s linear;
+}
+.header_navigation .navigation .icon .icon_compare{
+    margin-right: 10px;
+    transition: all 0.5s linear;
+}
+.header_navigation .navigation .icon .icon_wishlist{
+    margin-right: 10px;
+    transition: all 0.5s linear;
+}
+.header_navigation .navigation .icon span{
+    margin-left: 5px;
+}
+.header_navigation .navigation .icon i{
+    color: #000;
+    height: 18px;
+    width: 18px;
+}
+.header_navigation .navigation .icon .icon_login:hover{
+    background-color:rgb(131, 238, 174) ;
+    font-size: 20px;
+    transition: all 0.5s linear;
+}
+.header_navigation .navigation .icon .icon_compare:hover{
+    background-color:rgb(131, 238, 174) ;
+    font-size: 20px;
+    transition: all 0.5s linear;
+}
+.header_navigation .navigation .icon .icon_wishlist:hover{
+    background-color:rgb(131, 238, 174) ;
+    font-size: 20px;
+    transition: all 0.5s linear;
+}
+.header_navigation .navigation .Browse{
+    padding: 0 14px;
+    margin-inline-end: 35px;
+    text-decoration: none;
+    background-color: rgb(131, 238, 174) ;
+    color: #fff;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 8px;
+    min-width: 226px;
+}
+
+/* main body go brr */
+.mainbody{
+    padding: 0 25px;
+}
+.mainbody .mainbody_content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: start;
+}
+.mainbody .mainbody_content .mb_content_part h1{
+    color: #253D4E;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.mainbody .mainbody_content .mb_content_part .saleprice{
+    color:#DB1215;
+    font-size: 28px;
+    font-weight: 400;
+    margin-right: 10px;
+} 
+.mainbody .mainbody_content .mb_content_part .price{
+    color: #253D4E;
+    font-size: 20px;
+    text-decoration: line-through;
+    font-weight: 200;
+}
+.mainbody .mainbody_content .mb_content_part .off{
+    border-radius: 100px;
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: #fff ;
+    padding: 3px 9px ;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.mainbody .mainbody_content .mb_content_part .add_buy{
+    text-align: center;
+}
+.mainbody .mainbody_content .mb_content_part .add{
+    font-size: 18px;
+    display: block;
+    color: #fff;
+    background-color: #253D4E;
+    padding: 20px 200px;
+    border-radius: 100px;
+    margin-top: 25%;
+    margin-bottom: 30px;
+}
+.mainbody .mainbody_content .mb_content_part .buy{
+    font-size: 18px;
+    display: block;
+    color: #fff;
+    background-color: #61b482;
+    padding: 20px 320px;
+    border-radius: 100px;
+}
+/* footer go brr */
+.footer{
+    padding-bottom: 23px;
+}
+.footer .footer_main_content{
+    padding-top: 63px;
+    padding-bottom: 58px;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000 ;
+}
+.footer .footer_main_content .footer_container{
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer_container .footer_collapse_content img{
+    margin-bottom: 30px;
+}
+.footer_container .footer_collapse_content .collapse_infor p{
+    margin-bottom: 6.4px; 
+}
+.footer_container .footer_collapse_content .collapse_infor{
+    margin-bottom: 24px;
+}
+.footer_container .footer_collapse_content .get_direction{
+    margin-bottom: 32px;
+}
+.footer_container .footer_collapse_content .get_direction .get_direction_button{
+    text-decoration: none;
+    color: #000;
+}
+.footer_collapse_content .site{
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    height: 34px;
+    width: 34px;
+}
+.footer_collapse_content .site .site_link{
+    border-radius: 50%;
+    border: 1px solid rgb(37, 61, 78);
+    margin-right: 20px;
+    padding: 8px 6px;
+    text-decoration: none;
+    color: #000;
+}
+.footer_collapse_content .site .site_link i{
+    padding: 5px;
+}
+.footer_container .footer_help_content .help{
+    margin-bottom: 30px;
+}
+.footer_container .footer_help_content .menu{
+    list-style: none;
+}
+.footer_container .footer_help_content .menu li{
+    margin-bottom: 15px;
+}
+.footer_container .footer_help_content .menu a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s linear;
+}
+.footer_container .footer_help_content .menu a:hover{
+    color: rgb(153, 214, 62);
+    transition: all 0.3s linear;
+}
+.footer_container .footer_aboutus_content .about_us{
+    margin-bottom: 30px;
+}
+.footer_container .footer_aboutus_content .infor_menu{
+    list-style: none;
+}
+.footer_container .footer_aboutus_content .infor_menu li{
+    margin-bottom: 15px;
+}
+.footer_container .footer_aboutus_content .infor_menu a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s linear;
+}
+.footer_container .footer_aboutus_content .infor_menu a:hover{
+    color: rgb(153, 214, 62);
+    transition: all 0.3s linear;
+}
+.footer_container .footer_sign_up_for_email .email{
+    margin-bottom: 30px;
+}
+.footer_container .footer_sign_up_for_email .email_control .email_content p{
+    margin-bottom: 27px;
+}
+.footer_container .footer_sign_up_for_email .email_control .email_address{
+    max-height: 65px;
+    width: 100%;
+    border: 1px solid rgb(235 235 235);
+    padding: 6px 9px;
+    border-radius: 4rem;
+    background-color: rgb(255 255 255);
+}
+.footer_container .footer_sign_up_for_email .email_address .email_input {
+    width: 100%;
+}
+.footer_container .footer_sign_up_for_email .email_address .email_input input{
+    padding: 12px;
+    color: rgb(144 144 144);
+    background-color: rgb(255 255 255);
+    border-radius: 50px;
+}
