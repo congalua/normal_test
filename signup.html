@@ -9,31 +9,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="picture">
-        
+    <div class="main">
+        <div class="pic">
+            <img src="image/flat-style-agriculture-fruit-vegetable_126523-1643.jpg" alt="">
+        </div>
+        <div class="signup">
+            <h1 class="Title">Sign up</h1>
+            <form id="signup-form">
+                <div class="Item">
+                    <label for="First Name">Your Name</label>
+                    <input type="text" id="FirstName" placeholder="First Name">
+                </div>
+    
+                <div class="Item">
+                    <label for="Last Name">User Name</label>
+                    <input type="text" id="LastName" placeholder="Last Name" >
+                </div>
+    
+                <div class="Item">
+                    <label for="Email">Email</label>
+                    <input type="email" id="Email" placeholder="Example@gmail.com">
+                </div>
+    
+                <div class="Item">
+                    <label for="Password">Password</label>
+                    <input type="password" id="Password" placeholder="Password">
+                </div>
+    
+                <button type="submit" class="bt" id="submit-bt" >Sign up</button>
+    
+                <a href="signin.html" class="loginbt">*Already have an account?</a>
+    
+                <a href="index.html" class="loginbt">Return Home</a>
+            </form>
+            <!-- <div id="loading">Loading....</div> -->
+        </div>
     </div>
-    <div class="signup">
-        <h1 class="Title">Sign up</h1>
-        <form id="signup-form">
-            <label for="Your Name">Your Name</label>
-            <input type="text" id="YourName" placeholder="Your Name">
 
-            <label for="User Name">User Name</label>
-            <input type="text" id="UserName" placeholder="User Name">
-
-            <label for="Email">Email</label>
-            <input type="email" id="Email" placeholder="Example@gmail.com">
-
-            <label for="Password">Password</label>
-            <input type="password" id="Password" placeholder="Password">
-
-            <button type="submit" class="bt" >Sign up</button>
-
-            <a href="signin.html" class="loginbt">*Already have an account?</a>
-
-            <a href="index.html" class="loginbt">Return Home</a>
-        </form>
-    </div>
 
     <script type="module" src="signup.js"></script>
 </body>

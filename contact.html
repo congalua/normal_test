@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <!-- google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!-- end gg form -->
+        <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
+</head>
+<body>
+    <div class="form">
+        <div class="form_sub">
+            <h1>Write a message to us for
+                
+                information
+            </h1>
+            <a href="index.html" class="Return">Return Home</a>
+        </div>
+        <div class="form_main">
+            <form id="contact_message">
+                <div class="name">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="Your name" id="Name">
+                </div>
+                <div class="email">
+                    <label for="">Email</label>
+                    <input type="text" placeholder="Your email" id="Email">
+                </div>
+                <div class="message">
+                    <label for="">Message</label>
+                    <textarea type="text" placeholder="Your message" id="Message"></textarea>
+                </div>
+                <div >
+                    <button type="submit" class="btn-send">Send</button>
+                </div>
+            </form>
+            <p id="stateMessage"></p>
+        </div>
+    </div>
+
+    <script src="contact.js"></script>
+</body>
+</html>

@@ -9,23 +9,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="main">
+    <div class="pic">
+        <img src="image/sibidi2.avif" alt="">
+    </div>
     <div class="signin">
         <h1 class="title">Sign in</h1>
         <form action="" id="signin-form">
             <label for="Email">Email</label>
             <input type="email" id="Email" placeholder="email or username">
-
+    
             <label for="Password">Password</label>
             <input type="password" id="Password" placeholder="Enter your password">
-
-            <button type="submit" class="bt">Sign in</button>
-
+    
+            <button type="submit" id="submit-btn" class="bt">Sign in</button>
+    
+            <button id="SignInButton" class="bt">Sign in with google</button>
+    
             <a href="signup.html" class="signinbt">*Not have account yet?</a>
-
+    
             <a href="index.html" class="signinbt">Return Home</a>
         </form>
     </div>
+</div>
 
-    <script src="signin.js"></script>
+    
+
+
+    <script type="module" src="signin.js"></script>
 </body>
 </html>

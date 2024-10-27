@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="admin.css">
+    <!-- google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- end gg form -->
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
+</head>
+<body>
+    <div class="main">
+        <div class="product_add_form">
+            <h1 class="form_title">Add product</h1>
+            <form id="addProductForm">
+                <div class="name">
+                    <label>Product Name</label>
+                    <input type="text" id="name" placeholder="Enter product name">
+                </div>
+    
+                <div class="price">
+                    <label>Product Price</label>
+                    <input type="text" id="price" placeholder="Enter product price">
+                </div>
+    
+                <div class="description">
+                    <label>Product Description</label>
+                    <textarea name="" id="desc" placeholder="Enter product description"></textarea>
+                </div>
+    
+                <div class="picture">
+                    <label>Product Picture</label>
+                    <input type="url" id="pic" placeholder="Enter product pic">
+                </div>
+    
+                <div class="catergory">
+                    <label>Product Catergory</label>
+                    <input type="text" id="caterlog" placeholder="Enter product catergory">
+                </div>
+    
+                <button type="submit" id="add_product_btn">Confirm to add this product</button>
+    
+            </form>
+            <a href="index.html">Return to main site</a>
+
+        </div>
+        <div id="data_list">
+            
+        </div>
+        <div class="edit_delete">
+
+        </div>
+    </div>
+
+    <script type="module" src="admin.js"></script>
+</body>
+</html>

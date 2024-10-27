@@ -1,0 +1,143 @@
+.main{
+    display: flex;
+    justify-content: left;
+}
+.new_p{
+    height: 50%;
+    width: 50%;
+}
+#docId.id{
+    display: flex;
+}
+.idm{
+    display: flex;
+}
+.pic img{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: rgb(135, 137, 139);
+}
+#data_list{
+    width: 40%;
+    color: black;
+    text-align: center;
+    font-size:30px ;
+    margin-left: 50px;
+    border: 1px solid black;
+}
+#data_list span{
+    display: block;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+.product_add_form{
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 100vh;
+    font-size: 25px;   
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: rgba(231, 224, 224, 0.647);
+    color: black;
+}
+.form_title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+input{
+    font-size: 20px;
+    display: block;
+    padding: 10 10 10 0;
+    width: 90%;
+    outline: none;
+    border: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px ;
+}
+label{
+    display: block;
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
+    margin: 5px 0px;
+}
+textarea{
+    font-size: 20px;
+    display: block;
+    padding: 10 10 10 0;
+    width: 90%;
+    outline: none;
+    border: 2px solid black ;
+    border-radius: 5px;
+    margin-bottom: 10px ;
+}
+button{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 16px 32px;
+    background-color: rgb(15, 15, 68);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 50%;
+    display: block;
+    transition: all 0.25s linear;
+}
+button:hover{
+    padding: 24px 48px;
+    color: rgb(94, 187, 234);
+    background-color: black;
+    transition: all 0.25s linear;
+}
+.name{
+    width: 90%;
+    margin-left: auto;
+}
+.price{
+    width: 90%;
+    margin-left: auto;
+}
+.description{
+    width: 90%;
+    margin-left: auto;
+}
+.picture{
+    width: 90%;
+    margin-left: auto;
+}
+.catergory{
+    width: 90%;
+    margin-left: auto;
+}
+a{
+    font-weight: 900;
+    margin: auto; 
+    font-size: 25px;
+    color: black;
+    display: block;
+    text-align: center;
+    transition: all 0.5s linear;
+    text-decoration:none;
+}
+a:hover{
+    color: rgb(220, 11, 11);
+    font-size: 30px;
+    transition: all 0.5s linear;
+    font-weight: 900;
+}
+.delete{
+    background-color: red;
+}
+.delete:hover{
+    font-size: 30px;
+    background-color: red;
+    color: #fff;
+}

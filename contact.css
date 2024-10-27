@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Albert Sans", sans-serif;
+}
+.form{
+    padding:15px 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.form_sub{
+    text-align: center;
+}
+.Return{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.Return:hover{
+    text-decoration:underline;
+    font-weight: 800;
+}
+label{
+    display: block;
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
+    margin-top: 20px;
+    padding: 5px;
+}
+input{
+    font-size: 25px;
+    display: block;
+    padding: 10 10 10 0;
+    width: 100%;
+    outline: none;
+    border: 2px solid black;
+    margin-bottom: 10px ;
+}
+textarea{
+    font-size: 25px;
+    display: block;
+    padding: 10 10 10 0;
+    width: 100%;
+    outline: none;
+    border:2px solid black;
+    margin-bottom: 10px ;
+    height: 20vh;  
+}
+.btn-send{
+    margin: auto;
+    margin-top: 50px;
+    padding: 12px 24px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    width: 30%;
+    display: block;
+    transition: all 0.25s linear;
+}
+.btn-send:hover{
+    padding: 24px 36px;
+    color: rgb(94, 187, 234);
+    background-color: black;
+    transition: all 0.25s linear;
+}
